@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+
+div.enblock {
+	display: blok; 
+	float: left;
+	
+}
+
+div.enligne{
+	display: inline; 
+	float: left; 
+}
+
+div.adroite{
+	width: 286px;
+	display: inline; 
+	float: left; 
+}
+
+
+fieldset.agauche {
+	margin-right: 10px
+}
+
+#imgAvatar {
+	whith: 256px; 
+	height: 256px; 
+	margin: 10px;
+}

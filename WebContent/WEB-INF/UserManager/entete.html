@@ -1,0 +1,26 @@
+<img style="float: left" src="logo-mini.jpg">
+<img style="float: center" src="logo-titre.jpg">
+
+<div style="float: right">
+
+
+	<form action="Create" method="get">
+	<div style="float: right">  
+	<label style="float:right; padding: 10px; color: #729d00; font-weight: bold;">Bienvenue ${user.prenom} ${user.nom}</label>
+	<img style="float:left" src="${user.avatar}" height="50px" width="50px" alt="" />
+	</div>
+	
+	<br>
+	<div style="float: right">  
+	<input class="bouton" type="submit" value="Profil" align="bottom"/>
+<!-- 	<input class="bouton" type="button" value="Déconnexion" onclick="Deconnexion" /> -->
+	</div>
+	</form>
+	
+	<form action="Deconnexion" method="post">
+	<div style="float: right">  
+ 	<input class="bouton" type="submit" value="Déconnexion" align="bottom" /> 
+	</div>
+	</form>
+</div>
+
